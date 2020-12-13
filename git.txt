@@ -6,3 +6,9 @@ git commit -m "版本更新訊息" # 建立一組版本更新 (Commitment)
 git branch # 查看分支 (Branch)
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+git log # 之前的版本紀錄
+git remote -v # 查詢遠端的 Respository
+git remote add 遠端空間的名稱 網址 # 加入遠端的 Respository
+git push 遠端空間的名稱 遠端空間的分支 # 上傳到 GitHub 雲端專案空間
+git clone 遠端空間的網址 本機資料夾名稱 # 第一次下載 GitHub 雲端專案
+git pull 遠端空間的名稱 遠端空間的分支 # 從 GitHub 雲端專案下載合併更新
