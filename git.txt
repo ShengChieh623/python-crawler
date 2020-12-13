@@ -1,0 +1,8 @@
+git init # 初始化 Git Repository
+git status # 觀察 Repostitory 檔案追蹤狀況
+git add 檔名 # 將檔案加入追蹤 (index) 清單
+git add.
+git commit -m "版本更新訊息" # 建立一組版本更新 (Commitment)
+git branch # 查看分支 (Branch)
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
