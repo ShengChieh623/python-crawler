@@ -1,0 +1,26 @@
+# pip 套件管理工具
+pip3 install pandas
+    # pandas-
+        # Series 代表單維度資料，就像是一個列表，一個直向式欄位
+            使用方法:
+            import pandas as pd # 載入 Pandas 模組
+            pd.Series(列表) # 已列表資料為底，建立 Series
+            data = pd.Series(列表)
+            data.max() # 取最大值
+            data.median() # 計算中位數
+            data = data*2 # 放大兩倍
+        # DataFrame
+            使用方法:
+            import pandas as pd
+            data = pd.DataFrame(字典)
+            data["欄位名稱"]
+            # 取得特定列 (橫向)
+            
+
+# 隨機生成 user-agent
+pip install fake_useragent
+from fake_useragent import UserAgent
+# https://fake-useragent.herokuapp.com/browsers/0.1.7
+
+# 處理 cookies
+pip 
